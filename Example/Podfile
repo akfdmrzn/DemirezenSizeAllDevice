@@ -1,0 +1,6 @@
+use_frameworks!
+target 'demirezen_Tests' do
+  pod 'demirezen', :path => '../'
+  
+  
+end
