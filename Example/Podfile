@@ -1,6 +1,6 @@
 use_frameworks!
 target 'demirezen_Tests' do
-  pod 'demirezen', :path => '../'
+  pod 'demirezen', :path => '/Users/ko/Desktop/DemirezenSizeAllDevice/demirezen'
   
   
 end

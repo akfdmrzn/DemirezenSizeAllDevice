@@ -1,0 +1,6 @@
+framework module demirezen {
+  umbrella header "demirezen-umbrella.h"
+
+  export *
+  module * { export * }
+}

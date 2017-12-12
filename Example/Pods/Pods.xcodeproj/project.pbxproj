@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41FB0ACD2D934187A63510415230A9F7 /* demirezen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4579ADC0296DFFA7A2831FF8CD72214 /* demirezen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		668834BCB6F6E8D6FFF50A89712AB1A1 /* demirezen.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF7E08A71A17F1785A3D38866745139C /* demirezen.bundle */; };
+		7BD88AA0A690E9A941129866315BE9BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8E7DC6847898B564B0A9658A2A586688 /* Pods-demirezen_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C5FD91FE43672768F6FD7BFFD666B3 /* Pods-demirezen_Tests-dummy.m */; };
+		B24D5B3E53F9097A4EE5E865864AD1F1 /* Pods-demirezen_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A650484EEBB6940C7D169BF67BE6FC3 /* Pods-demirezen_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD020BB3A57663488777021A9301DEE4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F7672A785F031B5CE242915C3F030 /* ReplaceMe.swift */; };
+		EB2D77152DC2351BA1564D7125ED52C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F16A70CA37C12622D2B1500B5DE967D4 /* demirezen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ECC6C39C9C0F27862D80551759D10F /* demirezen-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6251BCF1FA927C3901D8499C5C7F880E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D58CA57F5FBFAF04ECDFF0EE51A7527;
+			remoteInfo = demirezen;
+		};
+		ED4EBBA826ABE88CF15A434BC1581A05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54DF47506B8A9A229F07BDE35DA321A5;
+			remoteInfo = "demirezen-demirezen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A650484EEBB6940C7D169BF67BE6FC3 /* Pods-demirezen_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-demirezen_Tests-umbrella.h"; sourceTree = "<group>"; };
+		18832A629D83C943DDBF0D470F5405C4 /* demirezen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = demirezen.modulemap; sourceTree = "<group>"; };
+		2068D3C46303E95A48CDA16749788D98 /* Pods-demirezen_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-demirezen_Tests-resources.sh"; sourceTree = "<group>"; };
+		24EA80795C69B5CB7F0C63F3908714C2 /* Pods-demirezen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demirezen_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		253A0830A46ED7F768EABFADEE127DF0 /* Pods-demirezen_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-demirezen_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2811840F6A51F8E3D29010A6F9DBB9B7 /* demirezen.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = demirezen.xcconfig; sourceTree = "<group>"; };
+		2E9D985CCA9AA7DBA5C361F351040548 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C9B5726E74466FD8D76C3F50290033 /* demirezen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "demirezen-prefix.pch"; sourceTree = "<group>"; };
+		402F7672A785F031B5CE242915C3F030 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = demirezen/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4205858126F344C75E99134ACFCE8C1A /* Pods_demirezen_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_demirezen_Tests.framework; path = "Pods-demirezen_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77895D70EE70B94652CA540C08CD0E40 /* Pods-demirezen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demirezen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A892838ADC132D3D207A96C06E38FC2 /* demirezen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = demirezen.framework; path = demirezen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAB49F52409E25E0975391FF0B93EB8 /* Pods-demirezen_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-demirezen_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99C5FD91FE43672768F6FD7BFFD666B3 /* Pods-demirezen_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-demirezen_Tests-dummy.m"; sourceTree = "<group>"; };
+		A84EF11EFF61EF7555B2176D8798630E /* Pods-demirezen_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-demirezen_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B22BA1C00CFBA32342660A5750144736 /* ResourceBundle-demirezen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-demirezen-Info.plist"; sourceTree = "<group>"; };
+		B725B52E1DA96A7A7D3B9EE2EF4741C9 /* Pods-demirezen_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-demirezen_Tests.modulemap"; sourceTree = "<group>"; };
+		D0ECC6C39C9C0F27862D80551759D10F /* demirezen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "demirezen-dummy.m"; sourceTree = "<group>"; };
+		E3DFE72EF54F0775DC9AE37A91167138 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7E08A71A17F1785A3D38866745139C /* demirezen.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = demirezen.bundle; path = demirezen.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4579ADC0296DFFA7A2831FF8CD72214 /* demirezen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "demirezen-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30B9797355A788E912F99F56244EC093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7470D8773BF24E64C4D36382C4CB93E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD88AA0A690E9A941129866315BE9BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22074020ADDA10FA487144D0B242C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2D77152DC2351BA1564D7125ED52C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2676C73C0ED8D46CBA393811F0907943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E08A71A17F1785A3D38866745139C /* demirezen.bundle */,
+				7A892838ADC132D3D207A96C06E38FC2 /* demirezen.framework */,
+				4205858126F344C75E99134ACFCE8C1A /* Pods_demirezen_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		700D63CC6F64C3B46F48440B269DA628 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB61F18A5CECC538137CDDC1D8C2C1F8 /* demirezen */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				700D63CC6F64C3B46F48440B269DA628 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2676C73C0ED8D46CBA393811F0907943 /* Products */,
+				B26D4ADFE5302ECB2603A680E4C8D69C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B26D4ADFE5302ECB2603A680E4C8D69C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCA8E69F74374C787B645D2D44B7541D /* Pods-demirezen_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E82EA4BE3D5AD02892F44AC28CE992E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18832A629D83C943DDBF0D470F5405C4 /* demirezen.modulemap */,
+				2811840F6A51F8E3D29010A6F9DBB9B7 /* demirezen.xcconfig */,
+				D0ECC6C39C9C0F27862D80551759D10F /* demirezen-dummy.m */,
+				35C9B5726E74466FD8D76C3F50290033 /* demirezen-prefix.pch */,
+				F4579ADC0296DFFA7A2831FF8CD72214 /* demirezen-umbrella.h */,
+				E3DFE72EF54F0775DC9AE37A91167138 /* Info.plist */,
+				B22BA1C00CFBA32342660A5750144736 /* ResourceBundle-demirezen-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/demirezen";
+			sourceTree = "<group>";
+		};
+		FB61F18A5CECC538137CDDC1D8C2C1F8 /* demirezen */ = {
+			isa = PBXGroup;
+			children = (
+				402F7672A785F031B5CE242915C3F030 /* ReplaceMe.swift */,
+				E82EA4BE3D5AD02892F44AC28CE992E1 /* Support Files */,
+			);
+			name = demirezen;
+			path = /Users/ko/Desktop/DemirezenSizeAllDevice/demirezen;
+			sourceTree = "<absolute>";
+		};
+		FCA8E69F74374C787B645D2D44B7541D /* Pods-demirezen_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2E9D985CCA9AA7DBA5C361F351040548 /* Info.plist */,
+				B725B52E1DA96A7A7D3B9EE2EF4741C9 /* Pods-demirezen_Tests.modulemap */,
+				253A0830A46ED7F768EABFADEE127DF0 /* Pods-demirezen_Tests-acknowledgements.markdown */,
+				7AAB49F52409E25E0975391FF0B93EB8 /* Pods-demirezen_Tests-acknowledgements.plist */,
+				99C5FD91FE43672768F6FD7BFFD666B3 /* Pods-demirezen_Tests-dummy.m */,
+				A84EF11EFF61EF7555B2176D8798630E /* Pods-demirezen_Tests-frameworks.sh */,
+				2068D3C46303E95A48CDA16749788D98 /* Pods-demirezen_Tests-resources.sh */,
+				0A650484EEBB6940C7D169BF67BE6FC3 /* Pods-demirezen_Tests-umbrella.h */,
+				77895D70EE70B94652CA540C08CD0E40 /* Pods-demirezen_Tests.debug.xcconfig */,
+				24EA80795C69B5CB7F0C63F3908714C2 /* Pods-demirezen_Tests.release.xcconfig */,
+			);
+			name = "Pods-demirezen_Tests";
+			path = "Target Support Files/Pods-demirezen_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A367EF46D391204BD4E012D7856DBAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24D5B3E53F9097A4EE5E865864AD1F1 /* Pods-demirezen_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709036B539AFB73CA37C368E0534A478 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FB0ACD2D934187A63510415230A9F7 /* demirezen-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D58CA57F5FBFAF04ECDFF0EE51A7527 /* demirezen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB82AD2495AE250208193FDF64A8FFA /* Build configuration list for PBXNativeTarget "demirezen" */;
+			buildPhases = (
+				4A2FAE0E9E5B544D0773208F1848EB01 /* Sources */,
+				7470D8773BF24E64C4D36382C4CB93E0 /* Frameworks */,
+				21DBB2517EB971AC2DD0CFADCAA2B041 /* Resources */,
+				709036B539AFB73CA37C368E0534A478 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FB3198C8D206A9FD167DE98239C2FE0 /* PBXTargetDependency */,
+			);
+			name = demirezen;
+			productName = demirezen;
+			productReference = 7A892838ADC132D3D207A96C06E38FC2 /* demirezen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		54DF47506B8A9A229F07BDE35DA321A5 /* demirezen-demirezen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172E4AF2AEAECFCBE3A10B7ED800276C /* Build configuration list for PBXNativeTarget "demirezen-demirezen" */;
+			buildPhases = (
+				8C5E78D0C1E08D776ABBE9F2B070DDF9 /* Sources */,
+				30B9797355A788E912F99F56244EC093 /* Frameworks */,
+				2E9F3E7D16EAE6521C9ECFA9C81C9B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "demirezen-demirezen";
+			productName = "demirezen-demirezen";
+			productReference = EF7E08A71A17F1785A3D38866745139C /* demirezen.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7F26DA87C8F2044488FE99F00BA9672C /* Pods-demirezen_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7754E478535A23E93513893E90EEA421 /* Build configuration list for PBXNativeTarget "Pods-demirezen_Tests" */;
+			buildPhases = (
+				CE5998720CD3687478BDEC4BAF0BE67E /* Sources */,
+				A22074020ADDA10FA487144D0B242C23 /* Frameworks */,
+				2A367EF46D391204BD4E012D7856DBAB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3689920B7036273B6406B07DDFA59042 /* PBXTargetDependency */,
+			);
+			name = "Pods-demirezen_Tests";
+			productName = "Pods-demirezen_Tests";
+			productReference = 4205858126F344C75E99134ACFCE8C1A /* Pods_demirezen_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2676C73C0ED8D46CBA393811F0907943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D58CA57F5FBFAF04ECDFF0EE51A7527 /* demirezen */,
+				54DF47506B8A9A229F07BDE35DA321A5 /* demirezen-demirezen */,
+				7F26DA87C8F2044488FE99F00BA9672C /* Pods-demirezen_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21DBB2517EB971AC2DD0CFADCAA2B041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668834BCB6F6E8D6FFF50A89712AB1A1 /* demirezen.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9F3E7D16EAE6521C9ECFA9C81C9B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A2FAE0E9E5B544D0773208F1848EB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16A70CA37C12622D2B1500B5DE967D4 /* demirezen-dummy.m in Sources */,
+				CD020BB3A57663488777021A9301DEE4 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5E78D0C1E08D776ABBE9F2B070DDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5998720CD3687478BDEC4BAF0BE67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7DC6847898B564B0A9658A2A586688 /* Pods-demirezen_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3689920B7036273B6406B07DDFA59042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = demirezen;
+			target = 2D58CA57F5FBFAF04ECDFF0EE51A7527 /* demirezen */;
+			targetProxy = 6251BCF1FA927C3901D8499C5C7F880E /* PBXContainerItemProxy */;
+		};
+		6FB3198C8D206A9FD167DE98239C2FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "demirezen-demirezen";
+			target = 54DF47506B8A9A229F07BDE35DA321A5 /* demirezen-demirezen */;
+			targetProxy = ED4EBBA826ABE88CF15A434BC1581A05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4A876CBCF6E667A574A60CF13B10230E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2811840F6A51F8E3D29010A6F9DBB9B7 /* demirezen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/demirezen/demirezen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/demirezen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/demirezen/demirezen.modulemap";
+				PRODUCT_NAME = demirezen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B014BCB8F80A0DA3F579E55146F02A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24EA80795C69B5CB7F0C63F3908714C2 /* Pods-demirezen_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-demirezen_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-demirezen_Tests/Pods-demirezen_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_demirezen_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5757E8007F688849A7C9BD5E878417E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2811840F6A51F8E3D29010A6F9DBB9B7 /* demirezen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/demirezen";
+				INFOPLIST_FILE = "Target Support Files/demirezen/ResourceBundle-demirezen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = demirezen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BDB65AEE76D4A27FF017C30F5923FBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77895D70EE70B94652CA540C08CD0E40 /* Pods-demirezen_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-demirezen_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-demirezen_Tests/Pods-demirezen_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_demirezen_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C043D2EDF18E1175D7DF50A216A40C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2811840F6A51F8E3D29010A6F9DBB9B7 /* demirezen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/demirezen/demirezen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/demirezen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/demirezen/demirezen.modulemap";
+				PRODUCT_NAME = demirezen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8144EDF62FB654C56CE6FE7B34481C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2811840F6A51F8E3D29010A6F9DBB9B7 /* demirezen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/demirezen";
+				INFOPLIST_FILE = "Target Support Files/demirezen/ResourceBundle-demirezen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = demirezen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		172E4AF2AEAECFCBE3A10B7ED800276C /* Build configuration list for PBXNativeTarget "demirezen-demirezen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5757E8007F688849A7C9BD5E878417E8 /* Debug */,
+				E8144EDF62FB654C56CE6FE7B34481C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB82AD2495AE250208193FDF64A8FFA /* Build configuration list for PBXNativeTarget "demirezen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C043D2EDF18E1175D7DF50A216A40C21 /* Debug */,
+				4A876CBCF6E667A574A60CF13B10230E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7754E478535A23E93513893E90EEA421 /* Build configuration list for PBXNativeTarget "Pods-demirezen_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB65AEE76D4A27FF017C30F5923FBC5 /* Debug */,
+				4B014BCB8F80A0DA3F579E55146F02A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

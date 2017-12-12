@@ -1,0 +1,26 @@
+{
+  "name": "demirezen",
+  "version": "0.1.0",
+  "summary": "A short description of demirezen.",
+  "homepage": "https://github.com//akfdmrzn/DemirezenSizeAllDevice",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "acct<blob>=<NULL>": "maddemirezen@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/akfdmrzn/DemirezenSizeAllDevice.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "demirezen/Classes/**/*",
+  "resource_bundles": {
+    "demirezen": [
+      "demirezen/Assets/*.png"
+    ]
+  }
+}
